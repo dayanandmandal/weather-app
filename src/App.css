@@ -1,0 +1,46 @@
+.App {
+  padding-left: 140px;
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    padding-left: 0;
+  }
+}
+
+* {
+  /* Foreground, Background */
+  scrollbar-color: rgb(1, 1, 1) transparent;
+}
+::-webkit-scrollbar {
+  width: 0; /* Mostly for vertical scrollbars */
+  height: 0; /* Mostly for horizontal scrollbars */
+}
+::-webkit-scrollbar-track {
+  /* Background */
+  background: transparent;
+}
+
+.add-city-modal-dark .ant-modal-content,
+.add-city-modal-dark .ant-modal-content .ant-modal-close,
+.add-city-modal-dark .ant-modal-content .ant-modal-header,
+.add-city-modal-dark .ant-modal-content .ant-modal-header .ant-modal-title,
+.add-city-modal-dark .ant-modal-content .ant-modal-body {
+  color: white;
+  background: black;
+}
+
+.add-city-modal-dark .ant-modal-content {
+  /* border: 2px solid purple; */
+  box-shadow: 0 0 2px 2px purple;
+}
+
+.toast-dark {
+  background: black;
+  color: white;
+}
+
+.toast-light {
+  background: white;
+  color: black;
+}
