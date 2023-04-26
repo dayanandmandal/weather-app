@@ -1,3 +1,5 @@
+hoisted link: https://dm-weather-app.netlify.app/
+
 # Steps to Submit your solution :
 
 - Clone (or pull) the repositary in your local pc.
